@@ -16,27 +16,40 @@
   <div id="preload" class="preload"></div>
   <!--SLIDE MATERIALIZE-->
   <section id="home">
-    <nav>
+    <nav class="nav_menu">
       <div class="nav-wrapper">
-        <a href="#!" class="brand-logo">Dona Bella</a>
+        <a href="#!" class="brand-logo opcaomenu">Dona Bella</a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="#bemvindo">Sobre</a></li>
-          <li><a href="#empresa">Conheça</a></li>
-          <li><a href="#cardapio">Cardápio</a></li>
-          <li><a href="#reserva">Reserva</a></li>
+          <li><a href="#home" class="opcaomenu">Home</a></li>
+          <li><a href="#bemvindo" class="opcaomenu">Sobre</a></li>
+          <li><a href="#empresa" class="opcaomenu">Conheça</a></li>
+          <li><a href="#harvin" class="opcaomenu">Harvin</a></li>
+          <li><a href="#cardapio" class="opcaomenu">Cardápio</a></li>
+          <li><a href="#reserva" class="opcaomenu">Reserva</a></li>
         </ul>
         <ul class="side-nav" id="mobile-demo">
+          <li><a href="#home" class="opcaomenu">Home</a></li>
           <li><a href="#bemvindo">Sobre</a></li>
           <li><a href="#empresa">Conheça</a></li>
+          <li><a href="#harvin">Harvin</a></li>
           <li><a href="#cardapio">Cardápio</a></li>
           <li><a href="#reserva">Reserva</a></li>
         </ul>
       </div>
     </nav>
 
-    <div class="slider">
+    <div class="slider" id="home">
       <ul class="slides">
+        <li>
+          <img src="images/harvin2.png"> <!-- random image -->
+          <div class="caption left-align">
+            <h3>Faça seu Pedido pelo Celular</h3>
+            <h5 class="light grey-text text-lighten-3">Selecione o que quer e pronto! <br>Seu pedido chegará na mesa</h5>
+            <a href="#bemvindo" class="btn">Conheça</a>
+            <a href="#bemvindo" class="btn">Peça</a>
+          </div>
+        </li>
         <li>
           <img src="images/background5.jpg"> <!-- random image -->
           <div class="caption left-align">
@@ -58,6 +71,7 @@
           <div class="caption left-align">
             <h3>Aproveite em casa</h3>
             <h5 class="light grey-text text-lighten-3">Faça agora sua encomenda</h5>
+            <a href="#bemvindo" class="btn">Conheça</a>
             <a href="bemvindo" class="btn">Fazer Pedido</a>
           </div>
         </li>
@@ -67,12 +81,16 @@
 
 
   <!--SECTION BEM VINDO A PIZZARIA DONA BELLA-->
-  <section class="" id="bemvindo">
+  <section id="bemvindo">
     <div class="container">
       <div class="row">
         <div class="col s12">
           <h1>Bem Vindo a Cantina Dona Bella</h1>
           <hr>
+          <p style="margin-bottom: -50px;">
+            Pizzaria com mais de 20 anos de história localizada no bairro São Marcos. É conhecida como a melhor pizzaria da região.
+            <br> Um empreendimento totalmente familiar, onde nossa familia faz o melhor oara servir a sua família sempre. Sejam Bem vindos e bom apetite!
+          </p>
         </div>
         <div class="col s12 m4">
           <img src="images/icons/pizza.png" alt="Pizza redonda icone" />
@@ -110,7 +128,21 @@
           <p>
             Veja nossa galeria de fotos e um pouco mais sobre nossa história
           </p>
-          <a href="sobrenos.html" class="btn">Conheça</a>
+          <a href="pizzaria.html" class="btn">Conheça</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="harvin">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6">
+          <h3>Conheça o Harvin</h3>
+          <p>
+            Sistema de pedidos pelo próprio celular. Entrega na mesa ou em casa fácil.
+          </p>
+          <a href="harvin.html" class="btn">Conheça</a>
         </div>
       </div>
     </div>
@@ -261,129 +293,143 @@
     <!-- SLIDE VEGAS - PIZZAS -->
   </section>
 
-<section id="delivery">
-  <div class="container">
-    <div class="row">
-      <div class="col s12 m6">
-        <img src="images/delivery.png" alt="Entregador de Pizza" class="responsive-img" />
-      </div>
-      <div class="col s12 m6">
-        <h1>Gostou do nosso Cardápio?</h1>
-        <hr>
-        <p style="margin-top: -50px!important;">
-          Venha nos visitar!
-          <br> <br>
-          Ou faça um pedido agora mesmo pelo próprio site e receba em casa
-          <br><br>Atendemos São Marcos e Região* <br>
-          Consulte as taxas de entrega
-        </p>
-        <a href="#" class="btn">Faça seu Pedido</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="reserva">
-  <div class="container">
-    <div class="row">
-      <div class="col s12 m6">
-        <h3>Reserve sua mesa</h3>
-        <p>
-          Quer aproveitar um momento especial em grupo? Um aniversário? Uma comemoração? Reserve sua mesa de maneira fácil pelo próprio site!
-        </p>
-        <a href="#" class="btn">Reserve</a>
+  <section id="delivery">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6">
+          <img src="images/delivery.png" alt="Entregador de Pizza" class="responsive-img" />
+        </div>
+        <div class="col s12 m6">
+          <h1>Gostou do nosso Cardápio?</h1>
+          <hr>
+          <p style="margin-top: -50px!important;">
+            Venha nos visitar!
+            <br> <br>
+            Ou faça um pedido agora mesmo pelo próprio site e receba em casa
+            <br><br>Atendemos São Marcos e Região* <br>
+            Consulte as taxas de entrega
+          </p>
+          <a href="login.html" class="btn">Faça seu Pedido</a>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section id="encontro">
-  <div class="container">
-    <div class="row">
-      <div class="col s12 m6">
-        <img src="images/fatia.png" alt="Fatia de Pizza PNG" />
-      </div>
-      <div class="col s12 m6">
-        <h1>Ponto de encontro das famiiares e amigos</h1>
-        <hr>
-        <p>
-          Venha conhecer a Cantina Dona Bella <br><br>
-          Endereço: R. Pedro Scripe, 251 - São Marcos, São José dos Pinhais
-          Telefone: (41) 3382-4036
-        </p>
-        <a href="#" class="btn">Veja o mapa</a>
+  <section id="reserva">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6">
+          <h3>Reserve sua mesa</h3>
+          <p>
+            Quer aproveitar um momento especial em grupo? Um aniversário? Uma comemoração? Reserve sua mesa de maneira fácil pelo próprio site!
+          </p>
+          <a href="login.html" class="btn">Reserve</a>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<footer id="footer">
-  <div class="container">
-    <div class="row">
-      <div class="col s12 m4">
-        <h1>Sobre nós</h1>
-        <hr>
-        <p>
-          Somos uma pizzaria e restaurante com mais de 20 anos de mercado, atuando no bairro São Marcos em São José dos Pingais.
-        </p>
-      </div>
-      <div class="col s12 m4">
-        <h1>Contato</h1>
-        <hr>
-        <p>
-          (41) 3382-4036
-        </p>
-      </div>
-      <div class="col s12 m4">
-        <h1>Facebook</h1>
-        <hr>
-        <a href="#"><img src="images/facebook.png" alt="Icone facebook azul" /></a>
+  <section id="encontro">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6">
+          <img src="images/fatia.png" alt="Fatia de Pizza PNG" />
+        </div>
+        <div class="col s12 m6">
+          <h1>Ponto de encontro das famiiares e amigos</h1>
+          <hr>
+          <p>
+            Venha conhecer a Cantina Dona Bella <br><br>
+            Endereço: R. Pedro Scripe, 251 - São Marcos, São José dos Pinhais
+            Telefone: (41) 3382-4036
+          </p>
+          <a href="https://www.google.com.br/maps/place/Cantina+Dona+Bella/@-25.6092156,-49.1694874,15z/data=!4m2!3m1!1s0x0:0x253d79fe00324d4b?sa=X&ved=0ahUKEwiV_LSW3unYAhVCGJAKHeZDAhUQ_BIIjAEwCg" class="btn" target="_blank">Veja o mapa</a>
+        </div>
       </div>
     </div>
+  </section>
+
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m4">
+          <h1>Sobre nós</h1>
+          <hr>
+          <p>
+            Somos uma pizzaria e restaurante com mais de 20 anos de mercado, atuando no bairro São Marcos em São José dos Pingais.
+          </p>
+        </div>
+        <div class="col s12 m4">
+          <h1>Contato</h1>
+          <hr>
+          <p>
+            (41) 3382-4036
+          </p>
+        </div>
+        <div class="col s12 m4">
+          <h1>Facebook</h1>
+          <hr>
+          <a href="https://www.facebook.com/cantinadonabella"><img src="images/facebook.png" alt="Icone facebook azul" target="_blank"/></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="copyright">
+    Powered by <a href="https://harvin.com.br" style="color: white;" target="_blank">Harvin</a>
   </div>
-</footer>
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="vegas/vegas.min.js"></script>
+  <script src="materialize/js/materialize.min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $('.slider').slider({
+      transition: 1000,
+      interval: 4500,
+    });
+    $('.scrollspy').scrollSpy();
+    $('.collapsible').collapsible();
+    $('.carousel').carousel();
+    $(".button-collapse").sideNav();
+  });
+  </script>
 
-<div class="copyright">
-  Powered by Harvin Tecnologia
-</div>
-    <!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="vegas/vegas.min.js"></script>
-    <script src="materialize/js/materialize.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function(){
-        $('.slider').slider({
-          transition: 1000,
-          interval: 4500,
-        });
-        $('.scrollspy').scrollSpy();
-        $('.collapsible').collapsible();
-        $('.carousel').carousel();
-        $(".button-collapse").sideNav();
-      });
-    </script>
+  <!--VEGAS-->
+  <script type="text/javascript">
+  $(".pizzas").vegas({
+    timer:false,
+    delay:2000,
+    slides: [
+      { src: "http://cantinadonabella.com.br/site/wp-content/gallery/teste2/600872_346645645461968_1964756754_n.jpg" },
+      { src: "http://cantinadonabella.com.br/site/wp-content/gallery/teste2/601084_346645668795299_1027732145_n.jpg" },
+      { src: "http://cantinadonabella.com.br/site/wp-content/gallery/teste2/935925_346645268795339_862419964_n.jpg" },
+      { src: "http://cantinadonabella.com.br/site/wp-content/gallery/teste2/945877_346645272128672_1122767044_n.jpg" },
+      { src: "http://cantinadonabella.com.br/site/wp-content/gallery/teste2/968858_346646425461890_2137634785_n.jpg" },
+    ],
+    overlay: 'vegas/overlays/01.png'
+  });
+  </script>
 
-    <!--VEGAS-->
-    <script type="text/javascript">
-      $(".pizzas").vegas({
-        timer:false,
-        delay:2000,
-        slides: [
-        { src: "http://cantinadonabella.com.br/site/wp-content/gallery/teste2/600872_346645645461968_1964756754_n.jpg" },
-        { src: "http://cantinadonabella.com.br/site/wp-content/gallery/teste2/601084_346645668795299_1027732145_n.jpg" },
-        { src: "http://cantinadonabella.com.br/site/wp-content/gallery/teste2/935925_346645268795339_862419964_n.jpg" },
-        { src: "http://cantinadonabella.com.br/site/wp-content/gallery/teste2/945877_346645272128672_1122767044_n.jpg" },
-        { src: "http://cantinadonabella.com.br/site/wp-content/gallery/teste2/968858_346646425461890_2137634785_n.jpg" },
-        ],
-        overlay: 'vegas/overlays/01.png'
-      });
-    </script>
+  <!-- GIF PAGE LOADING -->
+  <script type="text/javascript">
+  $(document).ready(function(){
+    setTimeout('$("#preload").fadeOut(700)', 1500);
+  });
+  </script>
 
-    <!-- GIF PAGE LOADING -->
-    <script type="text/javascript">
-        $(document).ready(function(){
-            setTimeout('$("#preload").fadeOut(700)', 3500);
-        });
+  <script type="text/javascript">
+  $(document).ready(function(){
+    window.addEventListener("scroll", function() {
+      if (window.scrollY > 50) {
+        $('.nav_menu').css({"background-color": "#FFF", "transition-property": "all", "transition-duration": "0.5s"});
+        $('.opcaomenu').css('color', '#000');
+      }else{
+        $('.nav_menu').css({"background-color": "transparent", "transition-property": "all", "transition-duration": "0.5s"});
+        $('.opcaomenu').css('color', '#fff');
+      }
+    })
+  });
     </script>
 
   </body>

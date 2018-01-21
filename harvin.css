@@ -1,0 +1,228 @@
+*{
+  text-align: center;
+}
+
+.container{
+  width: 85%;
+}
+/*HARVIN SITE*/
+#homeharvin{
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/harvin/background-harvin.jpg');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font-weight: 100;
+  font-size: 16px;
+}
+
+#homeharvin h1{
+  font-family: Raleway;
+  font-weight: 100;
+  text-align: center;
+  color: white;
+  margin-top: 250px;
+  font-size: 45px!important;
+}
+
+#homeharvin i{
+  margin-top: 100px;
+  background-color: rgba(255, 255, 255, 0.9);
+  font-size: 30px;
+}
+
+h1{
+  text-align: center;
+  font-weight: 300;
+  font-size: 30px;
+  margin-top: 75px;
+}
+
+hr{
+  width: 200px;
+}
+
+#ideia{
+  margin-top: 75px;
+}
+
+#ideia img{
+  width: 85px;
+}
+
+#ideia h1, #online h1{
+  margin-top: 0;
+}
+
+#ideia p{
+  text-align: justify!important;
+}
+
+#user, #online{
+  margin-top: 100px;
+}
+
+#user h1{
+  margin-top: 0;
+}
+
+#user p{
+  text-align: justify;
+}
+
+#conheca{
+  margin-top: 100px;
+}
+
+#conheca h1{
+  margin-top: 250px;
+}
+
+#conheca h1, #conheca p{
+  text-align: left;
+  color: white;
+  font-weight: 100;
+}
+
+#conheca .btn{
+  background-color: transparent;
+  border: 1px solid white;
+  text-align: left!important;
+  float: left;
+}
+
+
+/*HARVIN ESTAR*/
+#harvinestarparallax h1{
+  margin-top: 250px;
+}
+
+#harvinestarparallax h1, #harvinestarparallax p{
+  text-align: left;
+  color: white;
+  font-weight: 100;
+}
+
+#harvinestarparallax .btn{
+  background-color: transparent;
+  border: 1px solid white;
+  text-align: left!important;
+  float: left;
+}
+
+#harvinestar p{
+  text-align: justify;
+}
+
+.estar{
+  color: lightgreen;
+}
+
+.titulo{
+  margin: 50px;
+}
+
+#harvinestar h1{
+  margin-top: 0px;
+}
+
+#harvinestar img{
+  width: 85px;
+}
+
+
+
+
+/*HARVIN RESTAURANTE*/
+#harvinrestauranteparallax h1{
+  margin-top: 250px;
+}
+
+#harvinrestauranteparallax h1, #harvinrestauranteparallax p{
+  text-align: left;
+  color: white;
+  font-weight: 100;
+}
+
+#harvinrestauranteparallax .btn{
+  background-color: transparent;
+  border: 1px solid white;
+  text-align: left!important;
+  float: left;
+}
+
+#harvinrestaurante p{
+  text-align: justify;
+}
+
+.restaurante{
+  color: orange;
+}
+
+#harvinrestaurante h1{
+  margin-top: 0px;
+}
+
+#harvinrestaurante img{
+  width: 85px;
+}
+
+
+
+/*HARVIN COMPRAS*/
+#harvincomprasparallax h1{
+  margin-top: 250px;
+}
+
+#harvincomprasparallax h1, #harvincomprasparallax p{
+  text-align: left;
+  color: white;
+  font-weight: 100;
+}
+
+#harvincomprasparallax .btn{
+  background-color: transparent;
+  border: 1px solid white;
+  text-align: left!important;
+  float: left;
+}
+
+#harvincompras p{
+  text-align: justify;
+}
+
+.compras{
+  color: red;
+}
+
+#harvincompras h1{
+  margin-top: 0px;
+}
+
+#harvincompras img{
+  width: 85px;
+}
+
+
+/*FOOTER HARVIN*/
+#footerharvin{
+    margin-top: 100px;
+}
+
+#footerharvin h1{
+  margin-top: 250px;
+}
+
+#footerharvin h1, #footerharvin p{
+  text-align: left;
+  color: white;
+  font-weight: 100;
+}
+
+#footerharvin .btn{
+  background-color: transparent;
+  border: 1px solid white;
+  text-align: left!important;
+  float: left;
+}

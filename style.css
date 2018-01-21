@@ -39,10 +39,10 @@ hr{
 }
 
 nav{
-  position: absolute;
-  background-color: transparent;
+  position: fixed;
   z-index: 99999!important;
   box-shadow: none;
+  background-color: transparent;
 }
 
 .slider .slides li .caption{
@@ -98,7 +98,7 @@ nav{
 }
 
 
-/*DELIVERY*/
+/*EMPRESA*/
 #empresa{
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url('http://cantinadonabella.com.br/site/wp-content/gallery/teste2/600872_346645645461968_1964756754_n.jpg');
   height: 400px;
@@ -120,6 +120,37 @@ nav{
 }
 
 #empresa .btn:hover{
+  background-color: white;
+  width: 50%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  color: black;
+}
+
+
+
+/*HARVIN*/
+#harvin{
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url('http://cantinadonabella.com.br/site/wp-content/gallery/teste2/600872_346645645461968_1964756754_n.jpg');
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
+}
+
+#harvin h3{
+  margin-top: 75px;
+  font-weight: 100;
+}
+
+#harvin .btn{
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+#harvin .btn:hover{
   background-color: white;
   width: 50%;
   transition-property: all;
@@ -278,4 +309,13 @@ label{
 
 .informacao hr{
   text-align: right!important;
+}
+
+
+#pizzaria h1{
+  text-align: center!important;
+}
+
+#pizzaria img{
+  margin-bottom: 20px;
 }

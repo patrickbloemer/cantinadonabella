@@ -4228,7 +4228,7 @@ if (Vel) {
   $.scrollSpy = function (selector, options) {
     var defaults = {
       throttle: 100,
-      scrollOffset: 200, // offset - 200 allows elements near bottom of page to scroll
+      scrollOffset: -50, // offset - 200 allows elements near bottom of page to scroll
       activeClass: 'active',
       getActiveElement: function (id) {
         return 'a[href="#' + id + '"]';
@@ -4245,7 +4245,7 @@ if (Vel) {
       $('a[href="#' + $(element).attr('id') + '"]').click(function (e) {
         e.preventDefault();
         var offset = $(Materialize.escapeHash(this.hash)).offset().top + 1;
-        $('html, body').animate({ scrollTop: offset - options.scrollOffset }, { duration: 400, queue: false, easing: 'easeOutCubic' });
+        $('html, body').animate({ scrollTop: offset - options.scrollOffset }, { duration: 1000, queue: false, easing: 'easeOutCubic' });
       });
     });
 
